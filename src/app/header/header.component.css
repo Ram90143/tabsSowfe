@@ -1,0 +1,97 @@
+.toolbar-main {
+  background-color: #006E74;
+  color: white;
+  height: 65px;
+  z-index: 9999;
+  position: fixed;
+}
+#ust{
+  font-weight: 400;
+  padding-right: 5px;
+}
+#sotracker{
+font-weight: 200;
+padding-top: 1px;
+}
+
+#item1,#item2,#item3,#item4,#item5,#item6,#item7{
+  font-weight: 200;
+  justify-content: flex-end;
+  margin-top: 20px;
+  position: relative;
+}
+#item8{
+  display: flex;
+  font-weight: 200;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}
+.mat-drawer {
+  background-color: #006E74;
+  color: white;
+  width: max-content;
+}
+
+.full-width {
+  height: 100vh;
+}
+
+#drawer {
+  width: max-content;
+  transition: width 0.3s;
+}
+
+.expanded {
+  width: 100%;
+}
+.vertical-icons {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-right: 10px;
+  gap: 20px;
+  transition: padding 0.3s, gap 0.3s;
+  margin-top: 50px;
+}
+
+.icon-with-text {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.mat-tab-label {
+  color: white !important;
+}
+.example-container
+{
+  height: 100vh;
+}
+.nav-item button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.nav-item {
+  display: flex;
+  color: white;
+  margin-left: 120px;
+  gap: 25px;
+}
+
+.nav-item .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.small-icon, .small-icon-side {
+  font-size: 17px;
+}
+.icon-with-text:hover
+{
+  background-color: rgba(0, 0, 0, 0.457);
+}

@@ -1,0 +1,76 @@
+.mdc-button{
+    background-color: #006E74;
+    padding: 20px;
+}
+
+
+.mat-mdc-form-field {
+    font-size: 10px;
+    width: 100%;
+}
+
+.mdc-data-table__header-row {
+    height: 35px;
+    background-color: #006E74;
+    .mdc-data-table__header-cell {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+.mdc-data-table__row {
+    height: 30px;
+    background-color: #f2f7f8;
+}
+
+
+
+
+.table-container td.address-cell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 0;
+
+}
+
+.mat-cell.mat-column-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.truncate-cell,.truncate-cell-email, .address-cell {
+  max-width: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mat-cell.mat-column-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.actions-cell {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+
+}
+
+
+.truncate-cell:hover {
+  overflow: visible;
+  white-space: normal;
+}
+.paginator-container {
+  display: flex;
+  justify-content: center;
+}
+.table-container table {
+  table-layout: fixed;
+  width: 100%;
+  border: solid 2px black;
+  padding: 1px;
+  margin: 15px;
+}

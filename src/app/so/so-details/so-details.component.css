@@ -1,0 +1,157 @@
+.table-container {
+  max-height: 600px;
+  overflow: auto;
+  border: 2px solid black;
+  margin-left: 2px;
+  margin-right: 2px;
+
+}
+.daterange{
+  display: flex;
+  width: 235px;
+}
+.centered-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding-left: 100px;
+}
+
+.td-row{
+  border:1px solid rgba(0, 0, 0, 0.477) ;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-top: 20px;
+}
+.actionbuttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit, .delete{
+color:  #006e74f0;
+}
+.paginator-container {
+  display: flex;
+
+}
+
+.header-cell {
+  background-color: #006E74 !important;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.477);
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.429);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  padding: 1px;
+}
+.full-width{
+  width: 123px;
+  display: flex;
+}
+
+.filter-card {
+  background-color: #cccccc2a;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 4px #006e74;
+  padding-bottom:0px;
+  margin:5px;
+}
+
+.filter-card mat-card-content {
+  padding-bottom: 0px;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.filter-button:focus {
+  outline: none;
+}
+
+.filter-icon {
+  margin-right: 8px;
+}
+
+.filter-text {
+  font-weight: bold;
+}
+.row-container {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+
+}
+
+.filter,
+.filter-pagination {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.button-gap-filter,
+.button-gap {
+  flex: 1;
+}
+
+.filter-input,
+.button-container {
+  margin-left: 0px;
+}
+.filter-input mat-form-field {
+  width: 125px;
+}
+
+
+.card {
+  width: 250px; /* Adjust the width as needed */
+  padding: 20px; /* Adjust the padding as needed */
+  margin: 0 auto; /* Center the card horizontally */
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+
+.form-group {
+  margin-bottom: 15px; /* Add space after each form group */
+  display: flex;
+  align-items: center;
+}
+
+.mat-label {
+  margin-bottom: 5px; /* Add space after each label */
+  flex: 1;
+  margin-right: 10px; /* Add margin between label and input */
+}
+
+.popupbutton {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+
+
